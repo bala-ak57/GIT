@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Form 7</title>
+    <style>
+        body{
+            background-color: #382859;
+        }
+        div{
+            border: 8px solid #d4c75f;
+            background-color: white;
+            margin: 10% 25%;
+            padding: 5px;
+        }
+        hr{
+            margin: 0 5%;
+            border: 1px solid #d4c75f;
+        }
+        .design{
+            margin-left: 40px;
+        }
+        .d{
+            width: 100%;
+            margin: 20px 0 3px 0;
+            font-size: 180%;
+        }
+        .design, .design d{
+            background-color: #c0c0c0;
+        }
+        #visa, #Mastercard {
+            accent-color: #c0c0c0;
+        }
+    </style>
+</head>
+<body>
+    <div>
+    <h1 style="text-align: center;">Buy your way to a Better Education!</h1>
+    <p style="margin-left: 5px;">Recent changes in University of Washington policy now allow us to offer grades for money. That's right! All you need to get A in the class is cold, hard, cash</p>
+    <hr>
+    <h2 style="text-align: center;">Give us Your Money</h2>
+    <form>
+        <label for="name">Name</label><br>
+        <input class="design" type="text" id="name" name="name"> <br>
+        <label for="select">Sections</label><br>
+        <select class="design" id="select" name="select"> 
+            <option value="(select a section)">(Select a section)</option>
+            <option value="A">A</option>
+            <option value="B">B</option>
+        </select><br>
+        <label for="cc">Credit Card</label><br>
+        <input class="design" type="text" id="cc" name="cc"> <br>
+        <input class="design" type="radio" id="visa" name="cc" value="visa">
+        <label for="visa" >Visa</label>
+        <input type="radio" id="Mastercard" name="cc" value="mastercard">
+        <label for="mastercard" >Mastercard</label><br>
+        <input class="design d" type="submit" value="I am a giant sucker.">
+    </form>
+</div>
+</body>
+</html>

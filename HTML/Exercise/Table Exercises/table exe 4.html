@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Table 4</title>
+    <style>
+        body{
+            margin-top: 150px;
+            margin-left: 350px;     
+        }
+        table{
+            border-spacing: 3px;
+        }
+        td{
+            border: 3px solid green;
+        }
+        .one{
+            border: 3px solid blue; 
+        }
+    </style>
+</head>
+<body>
+    <table style="font-size: 50px;" border="5" bordercolor="green">
+        <tr>
+            <td>Table 1</td>
+            <td>Table 1
+                <table border="5" bordercolor="blue">
+                    <tr>
+                        <td class="one">Table 2</td>
+                        <td class="one">Table 2</td>
+                    </tr>
+                    <tr>
+                        <td class="one">Table 2</td>
+                        <td class="one">Table 2</td>
+                    </tr>
+                </table>
+            </td>
+        </tr>
+        <tr>
+            <td>Table 1</td>
+            <td>Table 1.</td>
+        </tr>
+    </table>
+    
+</body>
+</html>

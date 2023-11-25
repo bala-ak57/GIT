@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Table 2</title>
+    <style>
+        table{
+            margin-top: 200px;
+            margin-left: auto;
+            margin-right: auto;
+        }
+        .one{
+            height: 60px;
+            width: 70px;
+        }
+        .two{
+             width: 70px;            
+             padding-bottom: 20px;
+        }
+    </style>
+</head>
+<body>
+    <div>
+    <table border="1" style="border-collapse: collapse;">
+        <caption>A<i> test table with merged cells</i></caption>
+        <thead>
+        <tr>
+            <th class="one" rowspan="2"></th>
+            <th style="width: 200px;" colspan="2">Average</th>
+            <th class="two" rowspan="2">Red<br>eyes</th>
+        </tr>
+        <tr>
+            <th>height</th>
+            <th>weight</th>
+        </tr>
+</thead>
+<tbody>
+        <tr height="100%">
+            <th>Male</th>
+            <td>1.9</td>
+            <td>0.003</td>
+            <td>40%</td>
+        </tr>
+        <tr>
+            <th>Female</th>
+            <td>1.7</td>
+            <td>0.002</td>
+            <td>43%</td>
+        </tr>
+    </tbody>
+    </table>
+</div>
+</body>
+</html>
